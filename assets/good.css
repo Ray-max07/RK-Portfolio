@@ -1,0 +1,204 @@
+:root {
+  --primary-color: #644040;
+  --secondary-color: #ffffff;
+  --auxilliary-color: #000000;
+  --font-type: yellowtail, times new roman;
+  --horizantal-padding: 15px;
+  --vertical-padding: 20px;
+  --horizontal-main-padding: 100px;
+  --Designs-background-color: #f4f4f4;
+}
+
+body, h1, p, h3, a, nav, button {
+  margin: 0;
+}
+nav {
+  background-color: aqua;
+  color: var(--auxilliary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  padding-left: var(--horizontal-main-padding);
+  padding-right: var(--horizontal-main-padding);
+  font-style: var(--font-type);
+  height: 70px;
+}
+nav>div {
+  display: flex;
+  align-items: center;
+}
+
+nav > .logoArea > h1 {
+  font-family: var(--font-type);
+  margin-left: 10px;
+  font-size: 24px;
+}
+nav > .pageRoutes > a {
+  margin-left: 10px;
+  text-decoration: none;
+}
+nav > #homeSection > a {
+  text-decoration: none;
+  color: var(--auxilliary-color);
+}
+
+nav > #homeSection > img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 100%;
+}
+
+nav > #homeSection > h1 {
+  font-family: var(--font-type);
+  font-size: 30px;
+}
+
+/* section {
+  padding: var(--vertical-padding) var(--horizantal-padding);
+} */
+
+#homeSection {
+
+  
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding-left: var(--horizontal-main-padding);
+  padding-right: var(--horizontal-main-padding);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center; 
+  justify-content: left
+  
+} 
+
+#homeSection>img{
+  border-radius:100%
+  
+}
+#homeSection > h1 {
+  font-family: var(--font-type);
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#homeSection > button {
+  alt: unset;
+  background-color: grey;
+  color: var(--auxilliary-color);
+  border: none;
+  padding-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-content: center;
+  font-size: 25px;
+}
+
+
+#homeSection>button:hover {
+  background-color: var(--auxilliary-color);
+  color: var(--secondary-color);
+   all: unset;
+  font-size: 12px;
+  border: none;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 2s;
+}
+
+
+#designSection { 
+  background-image: linear-gradient(rgba(0,0,0 ,0.5),rgba(0,0,0,0.8)),
+                  url(../assets/images/png/Designs.jpg);
+  background-size: cover;
+  padding-left: var(--horizontal-main-padding);
+  padding-right: var(--horizontal-main-padding);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#designSection > .ray {
+  display: flex;
+}
+
+
+#designSection > .ray > #homeDesign {
+  background-color: var(--Designs-background-color);
+  text-align: center; 
+  color: #000;
+  margin: 4px;
+  border:solid 1px #bcbcbc;
+  border-radius: 20px;
+}
+#designSection > .ray > #homeDesign > h3{
+  font-size: 20px;
+}
+#designSection > .ray > #homeDesign > p{
+  font-size: 12px;
+  color: gray;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+#designSection > .ray > #homeDesign > img {
+ 
+  border-radius: 20px;
+  width: 90%;
+  height: 200px;
+  padding: 10px;
+  object-fit: cover;
+}
+
+#designSection > .ray >#homeDesign > button {
+ 
+   all: unset;
+  background-color:black;
+  color: #fff;
+  font-size: 12px;
+  border: none;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 2s;
+}
+
+#designSection > .ray >#homeDesign > button:hover{
+   all: unset;
+  background-color: var(--secondary-color);
+  color: var(--auxilliary-color);
+  border: none; 
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  
+}
+.video > iframe {
+  border-radius: 20px;
+}
+#Contact {
+  color: var(--auxilliary-color);
+  text-align: center;
+  padding-left: var(--horizontal-main-padding);
+  padding-right: var(--horizontal-main-padding);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  
+}
+footer {
+  background-color: var(--auxilliary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 20px;
+  font-family: var(--font-type);
+}
+
